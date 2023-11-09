@@ -1,0 +1,18 @@
+.nav{
+    background-color: antiquewhite;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.body{
+    margin-top: 20px;
+    display: flex;
+    margin-top: 20px;
+    height: auto;
+    background-color: rgb(45, 117, 117);
+}
+.pagination{
+    margin-bottom: 30px;
+   
+}
