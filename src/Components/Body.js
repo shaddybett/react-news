@@ -14,8 +14,8 @@ export default function Body() {
     const apiUrl = searchQuery
       ? `https://newsapi.org/v2/everything?q=${encodeURIComponent(
           searchQuery
-        )}&from=2023-10-09&sortBy=publishedAt&apiKey=ae3395c39dc9428fbf4dfa3b0f5caaed&page=${page}&pageSize=${pageSize}`
-      : `https://newsapi.org/v2/top-headlines?country=us&apiKey=ae3395c39dc9428fbf4dfa3b0f5caaed&page=${page}&pageSize=${pageSize}`;
+        )}&from=2023-10-09&sortBy=publishedAt&apiKey=dd21dc31ced9490bb44b59c0e09a6def&page=${page}&pageSize=${pageSize}`
+      : `https://newsapi.org/v2/top-headlines?country=us&apiKey=baaa831db144416cbaeea7ebefdcc54f&page=${page}&pageSize=${pageSize}`;
 
     fetch(apiUrl)
       .then((response) => {

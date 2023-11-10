@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "./Components/Navbar";
-import Body from "./Components/Body";
+import Navbar from "./Navbar";
+import Body from "./Body";
 export default function Inner() {
   return (
     <div>
