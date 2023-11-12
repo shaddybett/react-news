@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/react-news" element={<HomePage />} />
         <Route path="/inner" element={<Inner />} />
       </Routes>
     </div>
