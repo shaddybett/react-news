@@ -1,19 +1,264 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "articles": [
+      {
+          "source": {
+              "id": null,
+              "name": "Courier Journal"
+          },
+          "author": "Courier Journal",
+          "title": "Mega Millions numbers 11/10/23: $223M lottery drawing jackpot results - Courier Journal",
+          "description": null,
+          "url": "https://www.courier-journal.com/story/news/2023/11/10/mega-millions-numbers-november-10-drawing-lottery-jackpot-results-florida-texas-ny-lotto-powerball/71528380007/",
+          "urlToImage": null,
+          "publishedAt": "2023-11-11T02:03:53Z",
+          "content": null
+      },
+      {
+          "source": {
+              "id": "politico",
+              "name": "Politico"
+          },
+          "author": null,
+          "title": "U.S. debt in danger of downgrade by Moody's as shutdown looms - POLITICO",
+          "description": "The credit rating firm cited risks to the U.S. fiscal outlook — namely, higher interest rates “without effective fiscal policy measures to reduce government spending or increase revenues.”",
+          "url": "https://www.politico.com/news/2023/11/10/u-s-debt-in-danger-of-downgrade-by-moodys-as-shutdown-looms-00126680",
+          "urlToImage": "https://static.politico.com/f8/cd/92ddec7a41f6904ad5438608982a/c8cc72f5-f63e-4ad7-8b36-2e4412fd71ca-hako8.JPG",
+          "publishedAt": "2023-11-11T01:56:53Z",
+          "content": "A lower debt rating raises the risk of higher borrowing costs for the federal government. \r\nThe warning comes as the government teeters on the brink of another shutdown next week and follows a move b… [+1772 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "CNBC"
+          },
+          "author": "Julie Coleman",
+          "title": "Jim Cramer picks Disney as best of the major media stocks - CNBC",
+          "description": "CNBC's Jim Cramer on Friday ranked major media stocks: Disney, Fox, Warner Bros and Paramount.",
+          "url": "https://www.cnbc.com/2023/11/10/jim-cramer-picks-disney-as-best-of-the-major-media-stocks.html",
+          "urlToImage": "https://image.cnbcfm.com/api/v1/image/107325630-1698689874055-gettyimages-1727589260-ENTER-NEWS-DISNEY-100-YEARS-6-OS.jpeg?v=1699657873&w=1920&h=1080",
+          "publishedAt": "2023-11-11T00:06:00Z",
+          "content": "CNBC's Jim Cramer on Friday ranked major media stocks, choosing Walt Disney as the best of the bunch.\r\n\"After earnings season, it's worth reassessing the independent media plays, because some of them… [+2111 chars]"
+      },
+      {
+          "source": {
+              "id": "reuters",
+              "name": "Reuters"
+          },
+          "author": "Lewis Krauskopf, Amruta Khandekar, Shristi A",
+          "title": "Wall Street soars, fueled by tech as Treasury yields calm - Reuters",
+          "description": "Wall Street's main indexes ended with big gains on Friday, boosted by heavyweight tech and growth stocks as Treasury yields calmed, while investors looked ahead to a next week's reports on inflation and other economic data.",
+          "url": "https://www.reuters.com/markets/us/futures-mixed-after-powells-hawkish-tone-more-data-awaited-2023-11-10/",
+          "urlToImage": "https://www.reuters.com/resizer/DM0upoQc-cLmcLtVitoQqqRMG5A=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/6FNAFVDOJNM65EKIL5LZ6FSYPA.jpg",
+          "publishedAt": "2023-11-11T00:04:00Z",
+          "content": "Nov 10 (Reuters) - Wall Street's main indexes ended with big gains on Friday, boosted by heavyweight tech and growth stocks as Treasury yields calmed, while investors looked ahead to a next week's re… [+3721 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "YouTube"
+          },
+          "author": null,
+          "title": "Singles’ Day: world’s biggest online shopping event under way amid slowdown in Chinese economy - South China Morning Post",
+          "description": "Subscribe to our YouTube channel for free here: https://sc.mp/subscribe-youtubeRead more about Singles’ Day: https://sc.mp/uabbChinese retailers have kicked ...",
+          "url": "https://www.youtube.com/watch?v=gj4xlmeKXF0",
+          "urlToImage": "https://i.ytimg.com/vi/gj4xlmeKXF0/maxresdefault.jpg",
+          "publishedAt": "2023-11-11T00:00:26Z",
+          "content": null
+      },
+      {
+          "source": {
+              "id": "usa-today",
+              "name": "USA Today"
+          },
+          "author": "USA TODAY",
+          "title": "Dr. Pepper Hot Take: New flavor available for rewards members - USA TODAY",
+          "description": null,
+          "url": "https://www.usatoday.com/story/money/food/2023/11/10/dr-pepper-hot-take-new-flavor-rewards-members/71535704007/",
+          "urlToImage": null,
+          "publishedAt": "2023-11-10T22:37:58Z",
+          "content": null
+      },
+      {
+          "source": {
+              "id": "reuters",
+              "name": "Reuters"
+          },
+          "author": "Carolina Mandl",
+          "title": "Hedge funds short US financial stocks at near record levels -Goldman Sachs - Reuters",
+          "description": "Global hedge funds built bearish positions this week to the highest level in nearly five years, Goldman Sachs <a href=\"https://www.reuters.com/markets/companies/GS.N\" target=\"_blank\">(GS.N)</a> said on Friday, without citing the underlying reasons.",
+          "url": "https://www.reuters.com/business/finance/hedge-funds-short-us-financial-stocks-near-record-levels-goldman-sachs-2023-11-10/",
+          "urlToImage": "https://www.reuters.com/resizer/uGMgzViOhGhcXaTQZNjapiVCAeY=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/M3XE3VTGFVL3DDVSCVWTJWBMOU.jpg",
+          "publishedAt": "2023-11-10T22:30:00Z",
+          "content": "NEW YORK, Nov 10 (Reuters) - Global hedge funds built bearish positions this week to the highest level in nearly five years, Goldman Sachs (GS.N) said on Friday, without citing the underlying reasons… [+841 chars]"
+      },
+      {
+          "source": {
+              "id": "the-hill",
+              "name": "The Hill"
+          },
+          "author": "The Hill",
+          "title": "Maine says 1.3M people affected by data breach - The Hill",
+          "description": null,
+          "url": "https://thehill.com/policy/technology/4304739-maine-says-1-3m-people-affected-by-data-breach/",
+          "urlToImage": null,
+          "publishedAt": "2023-11-10T21:49:00Z",
+          "content": null
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "Investor's Business Daily"
+          },
+          "author": "Investor's Business Daily",
+          "title": "Dow Jones Races To Finish As Microsoft Hits All Time High; Cathie Wood's Chip Pick Soars - Investor's Business Daily",
+          "description": null,
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-gains-250-points-on-soft-data-plug-dives-on-warning/",
+          "urlToImage": null,
+          "publishedAt": "2023-11-10T21:29:00Z",
+          "content": null
+      },
+      {
+          "source": {
+              "id": "politico",
+              "name": "Politico"
+          },
+          "author": null,
+          "title": "UN climate summit host pushes oil producers for advance deal - POLITICO",
+          "description": "The oil-producing country hosting the annual UN climate conference wants other petroleum producers to pledge to curb greenhouse gases, but critics say the plan doesn't go far enough.",
+          "url": "https://www.politico.com/news/2023/11/10/cop28-host-uae-pushes-oil-producers-for-climate-pledges-00126619",
+          "urlToImage": "https://static.politico.com/fa/1f/abd6e9e04958b096600e3599a552/emirates-oil-exhibition-23658.jpg",
+          "publishedAt": "2023-11-10T21:00:00Z",
+          "content": "The initiatives backers hope it brings national oil companies, which can range from giants like Saudi Aramco to smaller producers like Colombias Ecopetrol, into a dialogue on taming greenhouse gases.… [+6616 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "MarketWatch"
+          },
+          "author": "Brett Arends",
+          "title": "U.S. Treasury bonds are not ’safe’ - MarketWatch",
+          "description": "10-year Treasury bonds have been a worse investment than gold bullion this year, last year, the year before that, and all the way back to 2018",
+          "url": "https://www.marketwatch.com/story/u-s-treasury-bonds-are-not-safe-f365a8c0",
+          "urlToImage": "https://images.mktw.net/im-885252/social",
+          "publishedAt": "2023-11-10T20:55:00Z",
+          "content": "Ask any financial planner or Wall Street type and theyll tell you U.S. Treasury bonds are the safest asset you can own.In the halls of the financial establishment, the yield, or interest rate, on 10-… [+10150 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "Tipranks.com"
+          },
+          "author": "TipRanks",
+          "title": "Trade Desk Stock (NASDAQ:TTD): Extreme Reaction Means Take Action - TipRanks.com - TipRanks",
+          "description": null,
+          "url": "https://www.tipranks.com/news/article/trade-desk-stock-nasdaqttd-extreme-reaction-means-take-action",
+          "urlToImage": null,
+          "publishedAt": "2023-11-10T20:44:33Z",
+          "content": null
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "YouTube"
+          },
+          "author": null,
+          "title": "WeWork's end, Neumann's return? Who's left holding the bag, and what comes next - CNBC Television",
+          "description": "WeWork took us on a wild ride. A real estate company disguised as a tech startup, holding long-term leases and turning them around for short-term rentals. It...",
+          "url": "https://www.youtube.com/watch?v=g_PH986UwvE",
+          "urlToImage": "https://i.ytimg.com/vi/g_PH986UwvE/maxresdefault.jpg",
+          "publishedAt": "2023-11-10T20:31:42Z",
+          "content": null
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "MarketWatch"
+          },
+          "author": "Frances Yue",
+          "title": "Bitcoin could reach $150,000 in 2025, says AllianceBernstein - MarketWatch",
+          "description": "Bitcoin could reach a cycle high of as much as $150,000 in 2025",
+          "url": "https://www.marketwatch.com/story/bitcoin-could-reach-150-000-in-2025-during-new-bull-cycle-says-alliancebernstein-37cc32a3",
+          "urlToImage": "https://images.mktw.net/im-672776/social",
+          "publishedAt": "2023-11-10T20:21:00Z",
+          "content": "Bitcoin could reach a cycle high of as much as $150,000 in 2025, driven by the so-called halving event and institutional inflow brought by bitcoin exchange traded funds, which are expected to be appr… [+1281 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "YouTube"
+          },
+          "author": null,
+          "title": "Ether rises nearly 4% after BlackRock files to launch spot ETF: CNBC Crypto World - CNBC Television",
+          "description": "CNBC Crypto World features the latest news and daily trading updates from the digital currency markets and provides viewers with a look at what’s ahead with ...",
+          "url": "https://www.youtube.com/watch?v=fMolkHfIIsE",
+          "urlToImage": "https://i.ytimg.com/vi/fMolkHfIIsE/maxresdefault.jpg",
+          "publishedAt": "2023-11-10T20:16:18Z",
+          "content": null
+      },
+      {
+          "source": {
+              "id": "cbs-news",
+              "name": "CBS News"
+          },
+          "author": "Angelica Leicht",
+          "title": "Are 1-gram gold bars worth buying? - CBS News",
+          "description": "Investing in 1-gram gold bars can be a more affordable, accessible way to buy gold, but should you take this route?",
+          "url": "https://www.cbsnews.com/news/are-1-gram-gold-bars-worth-buying/",
+          "urlToImage": "https://assets1.cbsnewsstatic.com/hub/i/r/2023/11/10/c4a1b0ba-7859-48a3-a496-a45b6169c189/thumbnail/1200x630/314e069ddb755a57c5bc0a6343a9d864/gettyimages-135929363.jpg?v=8afad5e29ac9a704fff9d98ba34d3649",
+          "publishedAt": "2023-11-10T19:57:15Z",
+          "content": "If you're investing in physical gold, 1-gram gold bars are one option that may be worth considering.\r\nGetty Images\r\nIn the world of precious metals, gold has long been revered for its timeless beauty… [+6046 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "CNBC"
+          },
+          "author": "Jake Piazza",
+          "title": "Shares of ed-tech company 2U plummet 57%, fall below $1 for much of day - CNBC",
+          "description": "Online education company 2U saw its stock fall to below $1 for much of the day Friday after a concerning revenue forecast.",
+          "url": "https://www.cnbc.com/2023/11/10/shares-of-ed-tech-company-2u-plummet-almost-60percent-falling-below-1.html",
+          "urlToImage": "https://image.cnbcfm.com/api/v1/image/101534792-3e259cc8e22da1eeb8aa9a0088fd1190d917143e.jpg?v=1529464861&w=1920&h=1080",
+          "publishedAt": "2023-11-10T19:44:13Z",
+          "content": "Shares of online education company 2U closed down 57% Friday, falling below $1 for much of the day after a problematic forecast and indications that some universities are terminating their contracts.… [+2838 chars]"
+      },
+      {
+          "source": {
+              "id": "ars-technica",
+              "name": "Ars Technica"
+          },
+          "author": "Jon Brodkin",
+          "title": "Apple discriminated against US citizens in hiring, DOJ says - Ars Technica",
+          "description": "Apple deterred US citizens from positions open to foreign workers, DOJ found.",
+          "url": "https://arstechnica.com/tech-policy/2023/11/apple-discriminated-against-us-citizens-in-hiring-doj-says/",
+          "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2023/11/apple-store-logo-760x380.jpg",
+          "publishedAt": "2023-11-10T19:43:20Z",
+          "content": "Enlarge/ Apple Store at Garden State Plaza mall on November 4, 2023, in Paramus, New Jersey. \r\n113 with \r\nApple illegally discriminated against US citizens and other US residents in its hiring and re… [+4128 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "Fox Business"
+          },
+          "author": "Perri Ormont Blumberg",
+          "title": "Veterans Day 2023: Food deals, discounts and freebies for America's heroes - Fox Business",
+          "description": "From Applebees to Chili's, Starbucks, IHOP and more, see 10 restaurants where veterans can dine for free and receive special discounts in honor of Veterans Day 2023.",
+          "url": "https://www.foxbusiness.com/lifestyle/veterans-day-food-deals-discounts-freebies-americas-heroes",
+          "urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2023/11/0/0/veteran-restaurant-deals-split.jpg?ve=1&tl=1",
+          "publishedAt": "2023-11-10T19:32:00Z",
+          "content": "Veterans Day is fast approaching on Saturday, Nov. 11, 2023, and Americans will honor the brave men and women who have served this country.\r\nTo recognize the sacrifices and dedication of veterans, re… [+4085 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "Fox Business"
+          },
+          "author": "Breck Dumas",
+          "title": "UAW members at GM's Flint plant vote against new labor deal - Fox Business",
+          "description": "A majority of United Auto Workers members at General Motors' assembly plant in Flint, Michigan, voted against the union's tentative agreement with the automaker this week.",
+          "url": "https://www.foxbusiness.com/markets/uaw-members-gms-flint-plant-vote-new-contract",
+          "urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2023/11/0/0/gm-flint.jpg?ve=1&tl=1",
+          "publishedAt": "2023-11-10T19:31:00Z",
+          "content": "The majority of United Auto Workers members at General Motors' Flint, Michigan, assembly plant voted this week to turn down the union's tentative contract agreement with the automaker as local chapte… [+2822 chars]"
+      }
+  ]
 }
